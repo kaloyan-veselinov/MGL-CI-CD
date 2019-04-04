@@ -1,1 +1,18 @@
 language: java
+
+jdk:
+  - oraclejdk10
+
+os:
+  - linux
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+  - $HOME/Bureau/MGL/Unit\ testing/gradle/
+
+script:
+  - ./gradlew test
