@@ -16,3 +16,6 @@ cache:
 
 script:
   - ./gradlew test
+
+before_install:
+ - chmod +x gradlew
