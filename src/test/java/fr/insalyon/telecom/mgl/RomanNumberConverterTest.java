@@ -50,6 +50,6 @@ public class RomanNumberConverterTest {
   @Test
   public void check_reversed_dictionnary() {
     assertThat(converter.convert(1)).isEqualTo("I");
-    assertThat(converter.convert(1000)).isEqualTo("L");
+    assertThat(converter.convert(1000)).isEqualTo("M");
   }
 }
